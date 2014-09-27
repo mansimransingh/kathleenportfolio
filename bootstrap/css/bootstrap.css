@@ -3247,7 +3247,6 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu-left {
     right: auto;
     left: 0;
-
   }
 }
 .btn-group,
@@ -3781,7 +3780,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
-  
   }
 }
 .navbar-collapse {
@@ -3822,8 +3820,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
-
-
 }
 @media (max-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -3865,16 +3861,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -webkit-transform: translate3d(0, 0, 0);
        -o-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          font-family: "proxima-nova",sans-serif;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          background-color: rgba (255,255,255,0.4);
-          letter-spacing: 0.02em;
-          padding-top: 25px;
-          padding-bottom: 25px;
-
-
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
@@ -4108,8 +4094,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
-  height:100px;
-
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6216,5 +6200,4 @@ button.close {
     display: none !important;
   }
 }
-
 /*# sourceMappingURL=bootstrap.css.map */
