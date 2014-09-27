@@ -1377,6 +1377,8 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
+  letter-spacing: 0.02em;
+
 }
 pre code {
   padding: 0;
@@ -6219,6 +6221,19 @@ button.close {
 
 .kathleen {
   padding-top: 100px;
+}
+
+.kathleen h1{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.kathleen h2 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:#999;
 
 }
 /*# sourceMappingURL=bootstrap.css.map */
