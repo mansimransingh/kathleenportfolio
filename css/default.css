@@ -1,15 +1,37 @@
-.mynavbar {
+/*.mynavbar {
 
 	   	 font-family: "proxima-nova",sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
           background-color: rgba(255,255,255,0.8);    
-/*		  padding-top: 25px;
-          padding-bottom: 25px;*/
+  		  
           color:#5b5;
           letter-spacing: 0.02em; 
+          background: linear-gradient(rgba(255,255,255,0.4),rgba(227,228,229,0.4)),transparent;
+
+        -webkit-filter: blur(6px);
+          -moz-filter: blur(6px);
+          filter: blur(6px); 
+} */
+
+
+
+.mynavbar {
+  position: abosolute;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #eee;
+  text-align:center;
+  background-color: rgba(255,255,255,0.8);    
+  width:100%;
+  z-index:3;
 }
+
+
+
 
 @media screen and (min-width: 768px) {
 	.navbar_brand,
@@ -17,6 +39,7 @@
 		line-height: 100px;
 		height: 100px;
 		padding-top: 0;
+
 	}
 }
 
