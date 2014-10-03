@@ -1,0 +1,110 @@
+/*.mynavbar {
+
+	   	 font-family: "proxima-nova",sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          background-color: rgba(255,255,255,0.8);    
+  		  
+          color:#5b5;
+          letter-spacing: 0.02em; 
+          background: linear-gradient(rgba(255,255,255,0.4),rgba(227,228,229,0.4)),transparent;
+
+        -webkit-filter: blur(6px);
+          -moz-filter: blur(6px);
+          filter: blur(6px); 
+} */
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mynavbar {
+  position: abosolute;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: rgba(255,255,255,0.8);    
+  width:100%;
+  z-index:3;
+}
+
+.navbar-default .navbar-nav>li>a {
+display: table-cell;
+vertical-align: middle;
+}
+
+.navbar-default {background:none}
+
+#blurred {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(255,255,255,0.7);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px); 
+  -o-filter: blur(5px);
+  filter: blur(5px);
+  z-index:-1;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+	.navbar_brand,
+	.navbar-nav li a {
+		line-height: 100px;
+		height: 100px;
+		padding-top: 0;
+
+	}
+}
+
+
+.kathleen {
+  padding-top: 200px;
+}
+
+.kathleen h1{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color:#444;
+}
+
+.kathleen h2 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:#999;
+}
+
+
+
+#blurred {
+    background: rgba(255, 255, 255, .6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom:1px solid rgba(0, 0, 0, .2);
+    background: transparent;
+    overflow: hidden;
+   
+    background: #fff;
+    left: 0;
+}
+#canvas {
+    opacity:1;
+    z-index: 100;
+    position: absolute;
+    display: block;
+    top: 3px;
+}
