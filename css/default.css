@@ -15,7 +15,11 @@
           filter: blur(6px); 
 } */
 
-
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .mynavbar {
   position: abosolute;
@@ -34,21 +38,6 @@ vertical-align: middle;
 }
 
 .navbar-default {background:none}
-#blurred {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: rgba(255,255,255,0.7);
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -ms-filter: blur(10px); 
-  -o-filter: blur(10px);
-  filter: blur(10px);
-  z-index:-1;
-}
-
 
 
 
@@ -85,8 +74,25 @@ vertical-align: middle;
   color:#999;
 }
 
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
 
+
+
+#blurred {
+    position:fixed;
+    background: rgba(255, 255, 255, .6);    
+    width: 100%;
+    top: 0;
+    border-bottom:1px solid rgba(0, 0, 0, .2);
+    background: transparent;
+    overflow: hidden;
+    z-index: -1;
+    background: #fff;
+    left: 0;
+}
+#canvas {
+    opacity:1;
+    z-index: 100;
+    position: absolute;
+    display: block;
+    top: 3px;
+}
