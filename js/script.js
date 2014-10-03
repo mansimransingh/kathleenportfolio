@@ -13,16 +13,19 @@ $(function () {
             20);
         }
     });
-    vv = setTimeout(function () {
-        $("header").show();
-        clearTimeout(vv);
-    }, 200);
 });
 
 $(window).scroll(function () {
     $("canvas").css(
         "-webkit-transform",
         "translatey(-" + $(window).scrollTop() + "px)");
+            var h = $('.mynavbar').height();
+            var y = $(window).scrollTop();
+            if(h <= y){
+                $("canvas").show();
+            } else {
+                $("canvas").hide();
+            }
 });
 
 window.onresize = function () {
