@@ -224,7 +224,7 @@ vertical-align: middle;
 }
 
 .social-link ul{
-      display: inline;
+      display: inline!important;
 }
 
 footer {
