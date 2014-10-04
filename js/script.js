@@ -28,9 +28,11 @@ $(window).scroll(function () {
             }
 });
 
-window.onresize = function () {
+$(window).resize(function(){
     $("canvas").width($(window).width());
-};
+    sameHeight('.portfolio-item');
+    console.log('resize');
+});
 
 $(document).bind('touchmove', function () {
     $("canvas").css(
@@ -42,4 +44,25 @@ $(document).bind('touchend', function () {
     $("canvas").css(
         "-webkit-transform",
         "translatey(-" + $(window).scrollTop() + "px)");
+});
+
+ function sameHeight(className){
+    $(className).css('height','auto');
+    var items = $(className);
+    var height = 0;
+
+    $.each(items, function(i,v){
+        if($(v).height() > height){
+            height = $(v).height();
+        }
+    });
+
+    $(className).height(height);
+
+};
+
+$(document).ready(function(){
+    sameHeight('.portfolio-item');
+
+    $('#fadein').addClass('load');
 });
