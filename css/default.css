@@ -216,7 +216,10 @@ vertical-align: middle;
 
 
 
-
+.social-link {
+  color:inherit;
+  text-decoration: none;
+}
 
 
 
