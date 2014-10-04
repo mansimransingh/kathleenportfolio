@@ -248,10 +248,9 @@ footer .copyright {
 
 }
 .text-center {
-text-align: center;
+  text-align: center;
 }
 
 #fadein *, #portfolio  {
   opacity:0;
-
 }

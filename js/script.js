@@ -50,31 +50,4 @@ $(document).ready(function(){
     $('#fadein h1').animate({"opacity":"1"},{duration:800});
     $('#fadein h2').delay(400).animate({"opacity":"1"},{duration:800});
     $('#portfolio').delay(1000).animate({"opacity":"1"},{duration:800});
-
-
-    // setTimeout(function(){
-    //     $('#fadein h1').css('opacity',1);
-    //     setTimeout(function(){
-    //         $('#fadein h2').css('opacity',1);
-    //         setTimeout(function(){
-    //             $('#portfolio').css('opacity',1);
-
-    //                 setTimeout(function(){
-    //                     html2canvas($("body"), {
-    //                         onrendered: function (canvas) {
-    //                             $("#blurred").append(canvas);
-    //                             $("canvas").attr("id", "canvas");
-    //                             stackBlurCanvasRGB(
-    //                                 'canvas',
-    //                             0,
-    //                             0,
-    //                             $("canvas").width(),
-    //                             $("canvas").height(),
-    //                             20);
-    //                         }
-    //                     });
-    //             },800);
-    //         },600);
-    //     },700);
-    // },800);
 });
