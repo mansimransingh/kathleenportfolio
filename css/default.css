@@ -219,6 +219,9 @@ vertical-align: middle;
 .social-link {
   color:inherit;
   text-decoration: none;
+  position: abosolute; 
+  width:100%;
+  z-index:3;
 }
 
 
