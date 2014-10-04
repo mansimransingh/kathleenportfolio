@@ -125,10 +125,8 @@ vertical-align: middle;
 }
 
 
-.caption section .caption-center>h2>h3>p{
-display: table-cell;
-vertical-align: middle;
-}
+
+
 
 .caption-content h2{
   font-family: "proxima-nova",sans-serif;
@@ -225,6 +223,9 @@ vertical-align: middle;
   list-style-type: none;
 }
 
+.social-link ul{
+      display: inline;
+}
 
 footer {
   padding: 50px 0 65px;
