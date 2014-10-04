@@ -232,7 +232,7 @@ footer {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  display:inline;
+  display: block!important;
 }
 footer .copyright {
   font-family: "proxima-nova",sans-serif;
