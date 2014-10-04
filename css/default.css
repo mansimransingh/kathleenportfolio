@@ -251,15 +251,7 @@ footer .copyright {
 text-align: center;
 }
 
-#fadein {
+#fadein *, #portfolio  {
   opacity:0;
-      -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
-         -o-transition: all .8s linear;
-            transition: all .8s linear;
 
-}
-#fadein.load {
-  opacity:1;
 }
