@@ -100,17 +100,23 @@ vertical-align: middle;
     border: none;
 }
 
+
+.caption section .caption-center>h2>h3>p{
+display: table-cell;
+vertical-align: middle;
+}
+
 .caption-content h2{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   color:#fff;
   font-size: 20px;
 }
 .caption-content h3{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   color:#fff;
   font-size: 16px;
 }
@@ -118,7 +124,7 @@ vertical-align: middle;
 .caption-content p{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   color:#fff;
   font-size: 14px;
 }
@@ -139,6 +145,12 @@ vertical-align: middle;
     margin: 0 0 15px;
 }
 
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+} 
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
