@@ -280,3 +280,13 @@ footer .copyright {
   margin-top: 200px;
   margin-bottom: 10px;
 }
+
+.standby-section h2 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
