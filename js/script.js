@@ -1,20 +1,3 @@
-$(function () {
-    $('#blurred').height($('.mynavbar').height());
-    html2canvas($("body"), {
-        onrendered: function (canvas) {
-            $("#blurred").append(canvas);
-            $("canvas").attr("id", "canvas");
-            stackBlurCanvasRGB(
-                'canvas',
-            0,
-            0,
-            $("canvas").width(),
-            $("canvas").height(),
-            20);
-        }
-    });
-});
-
 $(window).scroll(function () {
     $("canvas").css(
         "-webkit-transform",
@@ -28,9 +11,11 @@ $(window).scroll(function () {
             }
 });
 
-window.onresize = function () {
+$(window).resize(function(){
     $("canvas").width($(window).width());
-};
+    sameHeight('.portfolio-item');
+    console.log('resize');
+});
 
 $(document).bind('touchmove', function () {
     $("canvas").css(
@@ -42,4 +27,43 @@ $(document).bind('touchend', function () {
     $("canvas").css(
         "-webkit-transform",
         "translatey(-" + $(window).scrollTop() + "px)");
+});
+
+ function sameHeight(className){
+    $(className).css('height','auto');
+    var items = $(className);
+    var height = 0;
+
+    $.each(items, function(i,v){
+        if($(v).height() > height){
+            height = $(v).height();
+        }
+    });
+
+    $(className).height(height);
+
+};
+
+$(document).ready(function(){
+    $('#blurred').height($('.mynavbar').height());
+    sameHeight('.portfolio-item');
+    $('#fadein h1').animate({"opacity":"1"},{duration:800});
+    $('#fadein h2').delay(400).animate({"opacity":"1"},{duration:800});
+    $('#portfolio').delay(1000).animate({"opacity":"1"},{duration:800});
+    //queue html2canvas render
+    setTimeout(function(){
+        html2canvas($("body"), {
+            onrendered: function (canvas) {
+                $("#blurred").append(canvas);
+                $("canvas").attr("id", "canvas");
+                stackBlurCanvasRGB(
+                    'canvas',
+                0,
+                0,
+                $("canvas").width(),
+                $("canvas").height(),
+                20);
+            }
+        });
+    },1800);
 });
