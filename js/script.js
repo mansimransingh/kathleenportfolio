@@ -2,13 +2,7 @@ $(window).scroll(function () {
     $("canvas").css(
         "-webkit-transform",
         "translatey(-" + $(window).scrollTop() + "px)");
-            var h = $('.mynavbar').height();
-            var y = $(window).scrollTop();
-            if(h <= y){
-                $("canvas").show();
-            } else {
-                $("canvas").hide();
-            }
+            showHideCanvas();
 });
 
 $(window).resize(function(){
@@ -43,7 +37,15 @@ $(document).bind('touchend', function () {
     $(className).height(height);
 
 };
-
+function showHideCanvas(){
+    var h = $('.mynavbar').height();
+    var y = $(window).scrollTop();
+    if(h <= y){
+        $("canvas").show();
+    } else {
+        $("canvas").hide();
+    }
+}
 $(document).ready(function(){
     $('#blurred').height($('.mynavbar').height());
     sameHeight('.portfolio-item');
@@ -63,6 +65,7 @@ $(document).ready(function(){
                 $("canvas").width(),
                 $("canvas").height(),
                 20);
+                showHideCanvas();
             }
         });
     },1800);
