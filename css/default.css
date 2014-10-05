@@ -39,7 +39,10 @@ vertical-align: middle;
 
 .navbar-default {background:none}
 
-
+body {
+  position: relative;
+  min-height: 100%;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -209,9 +212,6 @@ vertical-align: middle;
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
-
-
-
 
 
 
