@@ -53,6 +53,7 @@ $(document).ready(function(){
     $('#fadein h2').delay(400).animate({"opacity":"1"},{duration:800});
     $('#portfolio').delay(1000).animate({"opacity":"1"},{duration:800});
     //queue html2canvas render
+    $('.social-link').delay(1400).fadeIn();
     setTimeout(function(){
         html2canvas($("body"), {
             onrendered: function (canvas) {
