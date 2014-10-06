@@ -297,11 +297,11 @@ img {
 }
 
 .fa-2x {
-  color:#979797;
+  color:rgba(49,184,176,.9);
 }
 
 .fa-2x:hover{
-color: rgba(49,184,176,.9);
+color: rgba(27,121,117,.9);
 }
 
 .social-link li a{
