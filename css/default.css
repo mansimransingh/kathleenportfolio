@@ -299,6 +299,15 @@ footer .copyright {
   margin-bottom: 60px;
   font-size: 28px;
 }
+.display-section .product-detail h3 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 28px;
+}
 .display-section h4 {
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
@@ -308,6 +317,8 @@ footer .copyright {
   margin-bottom: 60px;
   font-size: 24px;
 }
+
+
 img {
   max-width:100%;
 }
