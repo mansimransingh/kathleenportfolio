@@ -300,8 +300,8 @@ img {
   color:#979797;
 }
 
-.fa-2x :hover{
-color: red
+.fa-2x:hover{
+color: red;
 }
 
 .social-link li a{
