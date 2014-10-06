@@ -317,6 +317,8 @@ footer .copyright {
   margin-bottom: 0px;
   font-size: 28px;
 }
+
+
 .display-section h4 {
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
@@ -325,6 +327,16 @@ footer .copyright {
   margin-top: 60px;
   margin-bottom: 60px;
   font-size: 24px;
+}
+
+.display-section h5 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px!important; 
+  margin-bottom: 60px;
+  font-size: 28px;
 }
 
 
