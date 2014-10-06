@@ -266,19 +266,28 @@ footer .copyright {
   opacity:0;
 }
 
-.about-section
-{
-  padding-top: 200px;
+.about-section {
+  padding-top: 0px;
   padding-bottom: 80px;
 }
-
-.about h2{
+.about-section h1{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
   font-weight: 200;
   color:#979797;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  font-size:30px;
+}
+.about-section h2{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:24px;
+  line-height: 1.5;
 }
 
 .display-section h2 {
