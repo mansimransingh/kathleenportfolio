@@ -290,3 +290,5 @@ footer .copyright {
   margin-bottom: 60px;
   font-size: 32px;
 }
+
+img {max-width:100%;}
