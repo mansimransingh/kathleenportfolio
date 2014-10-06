@@ -48,12 +48,16 @@ function showHideCanvas(){
 }
 $(document).ready(function(){
     $('#blurred').height($('.mynavbar').height());
-    sameHeight('.portfolio-item');
+    
     $('#fadein h1').animate({"opacity":"1"},{duration:800});
     $('#fadein h2').delay(400).animate({"opacity":"1"},{duration:800});
     $('#portfolio').delay(1000).animate({"opacity":"1"},{duration:800});
     //queue html2canvas render
     $('.social-link').delay(1400).fadeIn();
+
+    $('.portfolio-item').load(function(){
+        sameHeight('.portfolio-item');
+    }); 
     setTimeout(function(){
         html2canvas($("body"), {
             onrendered: function (canvas) {
