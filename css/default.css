@@ -298,7 +298,8 @@ img {
 
 .fa-2x {
   color:#979797;
-  text-shadow: 1px 1px 1px #ccc;
-    font-size: 1.5em;
+}
 
+.fa-2x :hover{
+color: red
 }
