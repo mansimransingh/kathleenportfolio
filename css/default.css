@@ -310,3 +310,7 @@ color: red
 .social-link li a:hover {
   top:-3px;
 }
+
+.social-link li {
+  padding-top:5px;
+}
