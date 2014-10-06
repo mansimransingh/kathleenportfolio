@@ -303,3 +303,10 @@ img {
 .fa-2x :hover{
 color: red
 }
+
+.social-link li a{
+  position:relative;
+}
+.social-link li a:hover {
+  top:-3px;
+}
