@@ -55,9 +55,7 @@ $(document).ready(function(){
     //queue html2canvas render
     $('.social-link').delay(1400).fadeIn();
 
-    $('.portfolio-item').load(function(){
-        sameHeight('.portfolio-item');
-    }); 
+
     setTimeout(function(){
         html2canvas($("body"), {
             onrendered: function (canvas) {
@@ -75,3 +73,6 @@ $(document).ready(function(){
         });
     },1800);
 });
+    $(window).load(function(){
+        sameHeight('.portfolio-item');
+    }); 
