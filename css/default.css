@@ -310,9 +310,6 @@ color: rgba(49,184,176,.9);
 .social-link li a:hover {
   top:-3px;
 }
-.social-link {
-  display:none
-}
 
 .social-link li {
   padding-top:5px;
