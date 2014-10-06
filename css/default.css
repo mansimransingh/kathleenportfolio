@@ -290,4 +290,10 @@ footer .copyright {
   font-size: 32px;
 }
 
-img {max-width:100%;}
+img {
+  max-width:100%;
+}
+
+.thumbnail {
+  padding:0
+}
