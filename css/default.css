@@ -301,7 +301,7 @@ img {
 }
 
 .fa-2x:hover{
-color: red;
+color: rgba(49,184,176,.9);
 }
 
 .social-link li a{
