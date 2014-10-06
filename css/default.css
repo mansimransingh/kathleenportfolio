@@ -318,10 +318,10 @@ footer .copyright {
   font-weight: 200;
   color:#979797;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   font-size: 26px;
 }
-.sesame-section .product-detail h3 {
+.sesame-section h3 {
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
   font-weight: 200;
