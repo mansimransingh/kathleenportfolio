@@ -379,12 +379,37 @@ footer .copyright {
   font-weight: 200;
   color:#979797;
   margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.standby-section h4 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px;
   margin-bottom: 60px;
   font-size: 26px;
 }
 
-
-
+.standby-section h5 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.standby-section h6 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-size: 26px;
+}
 
 
 
