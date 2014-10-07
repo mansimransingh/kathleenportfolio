@@ -411,7 +411,24 @@ footer .copyright {
   font-size: 26px;
 }
 
-
+.myfirst-section h1 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.myfirst-section h2 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-size: 26px;
+}
 
 
 
