@@ -520,3 +520,7 @@ color: rgba(49,184,176,.9);
 .social-link li {
   padding-top:5px;
 }
+
+.row {
+  margin-bottom: 15px;
+}
