@@ -139,16 +139,17 @@ vertical-align: middle;
 .caption-content h2{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   color:#fff;
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 .caption-content h3{
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
   font-weight: 100;
   color:#fff;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .caption-content p{
@@ -156,7 +157,8 @@ vertical-align: middle;
   font-style: normal;
   font-weight: 100;
   color:#fff;
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 22px;
 }
 
 
