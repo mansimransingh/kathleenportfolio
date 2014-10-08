@@ -73,7 +73,7 @@ $(document).ready(function(){
         });
     },1800);
     if($.fn.fitVids != 'undefined'){
-        $('body').fitVids();
+        $('body').fitvids();
     }
 });
     $(window).load(function(){
