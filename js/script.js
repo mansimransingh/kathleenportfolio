@@ -72,6 +72,9 @@ $(document).ready(function(){
             }
         });
     },1800);
+    if($.fn.fitVids != 'undefined'){
+        $('body').fitVids();
+    }
 });
     $(window).load(function(){
         sameHeight('.portfolio-item');
