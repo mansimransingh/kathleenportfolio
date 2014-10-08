@@ -434,12 +434,36 @@ footer .copyright {
 
 
 
+.tinypost-section h1{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
 
 
+.tinypost-section h2 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-size: 26px;
+}
 
-
-
-
+.tinypost-section h3 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color:#979797;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 26px;
+}
 
 
 
